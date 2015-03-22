@@ -49,7 +49,6 @@ tap twayz/toggle-osx-shadows
 install toggle-osx-shadows
 
 # Other Homebrew packages
-install aircrack-ng
 install aria2
 install autoconf
 install autojump
