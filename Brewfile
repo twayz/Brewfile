@@ -49,6 +49,7 @@ tap twayz/toggle-osx-shadows
 install toggle-osx-shadows
 
 # Other Homebrew packages
+install aircrack-ng
 install aria2
 install autoconf
 install autojump
@@ -118,6 +119,7 @@ install setweblocthumb
 install shiboken
 install socat
 install speex
+install sqlite
 install swig
 install tag
 install terminal-notifier
