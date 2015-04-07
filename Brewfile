@@ -28,9 +28,23 @@ tap homebrew/python
 
 ## homebrew/versions
 tap homebrew/versions
+install gst-plugins-bad010 --with-faad2 --with-libmms --with-libsndfile
+install gst-plugins-base010 --with-libogg --with-libvorbis --with-theora
+install gst-plugins-good010 --with-flac --with-jpeg --with-libshout --with-libsoup --with-speex --with-taglib
+install gst-plugins-ugly010 --with-flac --with-lame --with-libmms --with-libvorbis --with-mad --with-theora --with-two-lame
+install gst-python010
+install gstreamer010
 
 ## mopidy/mopidy
 tap mopidy/mopidy
+install libspotify
+install mopidy-spotify
+install mopidy
+install pykka
+install pyspotify
+install python-backports-ssl-match-hostname
+install python-certifi
+install python-tornado
 
 ## mpv-player/mpv
 tap mpv-player/mpv
@@ -50,66 +64,94 @@ install toggle-osx-shadows
 
 # Other Homebrew packages
 install aria2
+install atk
 install autoconf
 install autojump
 install automake
 install bash
 install bash-completion
 install c-ares
+install cairo
 install cloog
 install cmake
 install concurrencykit
 install coreutils
 install faac
+install faad2
 install fdk-aac
 install ffmpeg --with-fdk-aac
 install findutils
+install flac
 install fontconfig
 install freetype
 install fribidi
-install fzf
+install fzf --HEAD
 install gcc
 install gdbm
+install gdk-pixbuf
+install gettext
 install git
+install glib
+install glib-networking
 install gmp
 install gnu-sed --with-default-names
 install gnupg
+install gnutls
 install go
+install gobject-introspection
+install gsettings-desktop-schemas
+install gtk+
 install hashpump
 install heroku-toolbelt
 install htop-osx
 install hub --HEAD
 install hydra
+install intltool
 install isl
 install john
 install jpeg
 install lame
 install lastpass-cli --with-pinentry
 install libass --with-harfbuzz
+install libffi
 install libidn
 install libmagic --with-python
+install libmms
 install libmpc
 install libogg
 install libpng
+install libshout
+install libsndfile
+install libsoup
+install libtasn1
 install libtiff
 install libtool
 install libvo-aacenc
 install libvorbis
+install libxml2
 install little-cms2
 install lua
 install lynx
+install mad
 install mcrypt
 install media-info
 install mhash
 install moreutils
 install mpfr
 install mpg123
+install nettle
 install openssl
 install p7zip
+install pango
 install pcre
 install pinentry
+install pixman
 install pkg-config
 install pngcheck
+install py2cairo
+install pygobject
+install pygtk
+install python
 install qt
 install readline
 install rename
@@ -121,9 +163,11 @@ install speex
 install sqlite
 install swig
 install tag
+install taglib
 install terminal-notifier
 install texi2html
 install theora
+install two-lame
 install unixodbc
 install vim --override-system-vi
 install webkit2png
