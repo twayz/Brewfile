@@ -106,6 +106,7 @@ install heroku-toolbelt
 install htop-osx
 install hub --HEAD
 install hydra
+install icu4c
 install intltool
 install isl
 install john
@@ -194,10 +195,12 @@ appstore MergePDF
 appstore Microsoft Remote Desktop
 appstore NoteAway
 appstore Numbers
+appstore OneDrive
 appstore Pages
 appstore PDFGenius
 appstore PDFSplitter Pro
 appstore Pushbullet
+appstore Remote Desktop
 appstore Ring Menu
 appstore ScreenFloat
 appstore Simplenote
