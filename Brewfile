@@ -116,7 +116,7 @@ install lastpass-cli --with-pinentry
 install libass --with-harfbuzz
 install libffi
 install libidn
-install libmagic --with-python --with-python
+install libmagic --with-python
 install libmms
 install libmpc
 install libogg
