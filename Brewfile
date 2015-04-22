@@ -79,7 +79,7 @@ install coreutils
 install faac
 install faad2
 install fdk-aac
-install ffmpeg --with-fdk-aac
+install ffmpeg --with-fdk-aac --with-fdk-aac
 install findutils
 install flac
 install fontconfig
