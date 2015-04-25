@@ -31,11 +31,6 @@ tap homebrew/versions
 
 ## mopidy/mopidy
 tap mopidy/mopidy
-install mopidy-spotify
-install pykka
-install python-backports-ssl-match-hostname
-install python-certifi
-install python-tornado
 
 ## mpv-player/mpv
 tap mpv-player/mpv
@@ -68,11 +63,9 @@ install cmake
 install concurrencykit
 install coreutils
 install faac
-install faad2
 install fdk-aac
 install ffmpeg --with-fdk-aac
 install findutils
-install flac
 install fontconfig
 install freetype
 install fribidi
@@ -82,14 +75,11 @@ install gdk-pixbuf
 install gettext
 install git
 install glib
-install glib-networking
 install gmp
 install gnu-sed --with-default-names
 install gnupg
-install gnutls
 install go
 install gobject-introspection
-install gsettings-desktop-schemas
 install gtk+
 install hashpump
 install heroku-toolbelt
@@ -97,7 +87,6 @@ install htop-osx
 install hub --HEAD
 install hydra
 install icu4c
-install intltool
 install isl
 install john
 install jpeg
@@ -107,14 +96,9 @@ install libass --with-harfbuzz
 install libffi
 install libidn
 install libmagic --with-python
-install libmms
 install libmpc
 install libogg
 install libpng
-install libshout
-install libsndfile
-install libsoup
-install libtasn1
 install libtiff
 install libtool
 install libvo-aacenc
@@ -122,14 +106,12 @@ install libvorbis
 install little-cms2
 install lua
 install lynx
-install mad
 install mcrypt
 install media-info
 install mhash
 install moreutils
 install mpfr
 install mpg123
-install nettle
 install openssl
 install p7zip
 install pango
@@ -146,14 +128,11 @@ install setweblocthumb
 install shiboken
 install socat
 install speex
-install sqlite
 install swig
 install tag
-install taglib
 install terminal-notifier
 install texi2html
 install theora
-install two-lame
 install unixodbc
 install vim --override-system-vi
 install webkit2png
