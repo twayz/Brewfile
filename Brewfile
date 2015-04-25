@@ -28,20 +28,11 @@ tap homebrew/python
 
 ## homebrew/versions
 tap homebrew/versions
-install gst-plugins-bad010 --with-faad2 --with-libmms --with-libsndfile
-install gst-plugins-base010 --with-libogg --with-libvorbis --with-theora
-install gst-plugins-good010 --with-flac --with-jpeg --with-libshout --with-libsoup --with-speex --with-taglib
-install gst-plugins-ugly010 --with-flac --with-lame --with-libmms --with-libvorbis --with-mad --with-theora --with-two-lame
-install gst-python010
-install gstreamer010
 
 ## mopidy/mopidy
 tap mopidy/mopidy
-install libspotify
 install mopidy-spotify
-install mopidy
 install pykka
-install pyspotify
 install python-backports-ssl-match-hostname
 install python-certifi
 install python-tornado
@@ -79,7 +70,7 @@ install coreutils
 install faac
 install faad2
 install fdk-aac
-install ffmpeg --with-fdk-aac --with-fdk-aac
+install ffmpeg --with-fdk-aac
 install findutils
 install flac
 install fontconfig
@@ -87,7 +78,6 @@ install freetype
 install fribidi
 install fzf --HEAD
 install gcc
-install gdbm
 install gdk-pixbuf
 install gettext
 install git
@@ -129,7 +119,6 @@ install libtiff
 install libtool
 install libvo-aacenc
 install libvorbis
-install libxml2
 install little-cms2
 install lua
 install lynx
@@ -149,10 +138,6 @@ install pinentry
 install pixman
 install pkg-config
 install pngcheck
-install py2cairo
-install pygobject
-install pygtk
-install python
 install qt
 install readline
 install rename
