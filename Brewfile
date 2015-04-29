@@ -35,7 +35,7 @@ tap mopidy/mopidy
 tap mpv-player/mpv
 install harfbuzz
 install libass-ct --HEAD
-install mpv --with-official-libass --with-official-libass
+install mpv --with-official-libass
 
 ## rcmdnk/file
 tap rcmdnk/file
