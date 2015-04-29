@@ -21,7 +21,6 @@ install zlib
 
 ## homebrew/php
 tap homebrew/php
-install composer
 
 ## homebrew/python
 tap homebrew/python
@@ -35,7 +34,8 @@ tap mopidy/mopidy
 ## mpv-player/mpv
 tap mpv-player/mpv
 install harfbuzz
-install mpv --with-official-libass
+install libass-ct --HEAD
+install mpv --with-official-libass --with-official-libass
 
 ## rcmdnk/file
 tap rcmdnk/file
