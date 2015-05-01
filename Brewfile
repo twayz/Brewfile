@@ -134,7 +134,7 @@ install terminal-notifier
 install texi2html
 install theora
 install unixodbc
-install vim --override-system-vi --override-system-vi
+install vim --override-system-vi
 install webkit2png
 install wget --with-iri
 install wifi-password
