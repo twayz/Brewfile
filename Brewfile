@@ -83,6 +83,7 @@ install gobject-introspection
 install gtk+
 install hashpump
 install heroku-toolbelt
+install hexedit
 install htop-osx
 install hub --HEAD
 install hydra
@@ -101,6 +102,7 @@ install libogg
 install libpng
 install libtiff
 install libtool
+install libusb
 install libvo-aacenc
 install libvorbis
 install little-cms2
@@ -142,6 +144,7 @@ install x264
 install xvid
 install xz
 install yasm
+install zsh-notify --HEAD
 
 # App Store applications
 appstore 1Keyboard
@@ -163,6 +166,7 @@ appstore OneDrive
 appstore Pages
 appstore PDFGenius
 appstore PDFSplitter Pro
+appstore Pocket
 appstore Pushbullet
 appstore Remote Desktop
 appstore Ring Menu
