@@ -3,21 +3,21 @@
 
 ## beeftornado/rmtree
 tap beeftornado/rmtree
-install brew-rmtree
+brew brew-rmtree
 
 ## caskroom/cask
 tap caskroom/cask
-install brew-cask
-cask install growlnotify
+brew brew-cask
+cask growlnotify
 
 ## caskroom/versions
 tap caskroom/versions
 
 ## homebrew/dupes
 tap homebrew/dupes
-install grep
-install screen
-install zlib
+brew grep
+brew screen
+brew zlib
 
 ## homebrew/php
 tap homebrew/php
@@ -27,132 +27,181 @@ tap homebrew/python
 
 ## homebrew/versions
 tap homebrew/versions
+brew gst-plugins-bad010 --with-faad2 --with-libmms --with-libsndfile
+brew gst-plugins-base010 --with-libogg --with-libvorbis --with-theora
+brew gst-plugins-good010 --with-flac --with-jpeg --with-libshout --with-libsoup --with-speex --with-taglib
+brew gst-plugins-ugly010 --with-flac --with-lame --with-libmms --with-libvorbis --with-mad --with-theora --with-two-lame
+brew gst-python010
+brew gstreamer010
 
 ## mopidy/mopidy
 tap mopidy/mopidy
+brew libspotify
+brew mopidy-spotify
+brew mopidy
+brew pykka
+brew pyspotify
+brew python-backports-ssl-match-hostname
+brew python-certifi
+brew python-tornado
 
 ## mpv-player/mpv
 tap mpv-player/mpv
-install harfbuzz
-install libass-ct --HEAD
-install mpv --with-official-libass
+brew harfbuzz
+brew libass-ct --HEAD
+brew mpv --with-official-libass
 
 ## rcmdnk/file
 tap rcmdnk/file
-install brew-file
+brew brew-file
 
 ## sampsyo/py
 tap sampsyo/py
+brew gst-python
 
 ## twayz/toggle-osx-shadows
 tap twayz/toggle-osx-shadows
-install toggle-osx-shadows
+brew toggle-osx-shadows
 
 # Other Homebrew packages
-install aria2
-install atk
-install autoconf
-install autojump
-install automake
-install bash
-install bash-completion
-install c-ares
-install cairo
-install cloog
-install cmake
-install concurrencykit
-install coreutils
-install faac
-install fdk-aac
-install ffmpeg --with-fdk-aac
-install findutils
-install fontconfig
-install freetype
-install fribidi
-install fzf --HEAD
-install gcc
-install gdk-pixbuf
-install gettext
-install git
-install glib
-install gmp
-install gnu-sed --with-default-names
-install gnupg
-install go
-install gobject-introspection
-install gtk+
-install hashpump
-install heroku-toolbelt
-install hexedit
-install htop-osx
-install hub --HEAD
-install hydra
-install icu4c
-install isl
-install john
-install jpeg
-install lame
-install lastpass-cli --with-pinentry
-install libass --with-harfbuzz
-install libffi
-install libidn
-install libmagic --with-python
-install libmpc
-install libogg
-install libpng
-install libtiff
-install libtool
-install libusb
-install libvo-aacenc
-install libvorbis
-install little-cms2
-install lua
-install lynx
-install mcrypt
-install media-info
-install mhash
-install moreutils
-install mpfr
-install mpg123
-install openssl
-install p7zip
-install pango
-install pcre
-install pinentry
-install pixman
-install pkg-config
-install pngcheck
-install qt
-install readline
-install rename
-install rtmpdump
-install setweblocthumb
-install shiboken
-install socat
-install speex
-install swig
-install tag
-install terminal-notifier
-install texi2html
-install theora
-install unixodbc
-install vim --override-system-vi
-install webkit2png
-install wget --with-iri
-install wifi-password
-install x264
-install xvid
-install xz
-install yasm
-install zsh-notify --HEAD
+brew aria2
+brew atk
+brew autoconf
+brew autojump
+brew automake
+brew autotrace
+brew base64
+brew bash
+brew bash-completion
+brew bison
+brew c-ares
+brew cairo
+brew cloog
+brew cmake
+brew concurrencykit
+brew coreutils
+brew faac
+brew faad2
+brew fdk-aac
+brew ffmpeg --with-fdk-aac
+brew findutils
+brew flac
+brew fontconfig
+brew freetype
+brew fribidi
+brew fzf --HEAD
+brew gcc
+brew gdbm
+brew gdk-pixbuf
+brew gettext
+brew git
+brew glib
+brew glib-networking
+brew gmp
+brew gnu-sed --with-default-names
+brew gnupg
+brew gnutls
+brew go
+brew gobject-introspection
+brew gsettings-desktop-schemas
+brew gst-plugins-base
+brew gst-plugins-good
+brew gst-plugins-ugly
+brew gstreamer
+brew gtk+
+brew hashpump
+brew heroku-toolbelt
+brew hexedit
+brew htop-osx
+brew hub --HEAD
+brew hydra
+brew icu4c
+brew imagemagick
+brew intltool
+brew isl
+brew john
+brew jpeg
+brew lame
+brew lastpass-cli --with-pinentry
+brew libass --with-harfbuzz
+brew libffi
+brew libidn
+brew libmagic --with-python
+brew libmms
+brew libmpc
+brew libogg
+brew libpng
+brew libshout
+brew libsndfile
+brew libsoup
+brew libtasn1
+brew libtiff
+brew libtool
+brew libusb
+brew libvo-aacenc
+brew libvorbis
+brew libxml2
+brew libyaml
+brew little-cms2
+brew lua
+brew lynx
+brew mad
+brew mcrypt
+brew media-info
+brew mhash
+brew moreutils
+brew mpfr
+brew mpg123
+brew nettle
+brew openssl
+brew p7zip
+brew pango
+brew pcre
+brew pinentry
+brew pixman
+brew pkg-config
+brew pngcheck
+brew py2cairo
+brew pygobject
+brew pygobject3
+brew pygtk
+brew python
+brew qt
+brew readline
+brew rename
+brew rtmpdump
+brew ruby
+brew setweblocthumb
+brew shiboken
+brew socat
+brew speex
+brew sqlite
+brew swig
+brew tag
+brew taglib
+brew terminal-notifier
+brew texi2html
+brew theora
+brew two-lame
+brew unixodbc
+brew vim --override-system-vi
+brew webkit2png
+brew wget --with-iri
+brew wifi-password
+brew x264
+brew xvid
+brew xz
+brew yasm
 
 # App Store applications
 appstore 1Keyboard
 appstore Blackmagic Disk Speed Test
 appstore Clearview
 appstore ColorQuest
+appstore Datum LE
 appstore Downcast
 appstore FilePane
+appstore Forecast Bar
 appstore GarageBand
 appstore iMovie
 appstore ipswDownloader
@@ -167,12 +216,14 @@ appstore Pages
 appstore PDFGenius
 appstore PDFSplitter Pro
 appstore Pocket
+appstore PopBoardz
 appstore Pushbullet
 appstore Remote Desktop
 appstore Ring Menu
 appstore ScreenFloat
 appstore Simplenote
 appstore SiteSucker
+appstore SnappyApp
 appstore Tab Notes
 appstore TrashMe
 appstore Xcode
