@@ -83,7 +83,7 @@ brew coreutils
 brew faac
 brew faad2
 brew fdk-aac
-brew ffmpeg --with-fdk-aac --with-fdk-aac
+brew ffmpeg --with-fdk-aac
 brew findutils
 brew flac
 brew fontconfig
@@ -123,7 +123,7 @@ brew john
 brew jpeg
 brew lame
 brew lastpass-cli --with-pinentry
-brew libass --with-harfbuzz --with-harfbuzz
+brew libass --with-harfbuzz
 brew libffi
 brew libidn
 brew libmagic --with-python
