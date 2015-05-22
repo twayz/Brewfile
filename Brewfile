@@ -49,7 +49,7 @@ brew python-tornado
 tap mpv-player/mpv
 brew harfbuzz
 brew libass-ct --HEAD
-brew mpv --with-official-libass --with-official-libass
+brew mpv --with-official-libass
 
 ## rcmdnk/file
 tap rcmdnk/file
