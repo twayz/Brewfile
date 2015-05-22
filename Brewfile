@@ -83,7 +83,7 @@ brew coreutils
 brew faac
 brew faad2
 brew fdk-aac
-brew ffmpeg --with-fdk-aac
+brew ffmpeg --with-fdk-aac --with-fdk-aac
 brew findutils
 brew flac
 brew fontconfig
@@ -123,7 +123,7 @@ brew john
 brew jpeg
 brew lame
 brew lastpass-cli --with-pinentry
-brew libass --with-harfbuzz
+brew libass --with-harfbuzz --with-harfbuzz
 brew libffi
 brew libidn
 brew libmagic --with-python
@@ -198,7 +198,6 @@ appstore 1Keyboard
 appstore Blackmagic Disk Speed Test
 appstore Clearview
 appstore ColorQuest
-appstore Datum LE
 appstore Downcast
 appstore FilePane
 appstore Forecast Bar
@@ -226,5 +225,4 @@ appstore SiteSucker
 appstore SnappyApp
 appstore Tab Notes
 appstore TrashMe
-appstore Xcode
 appstore Yoink
