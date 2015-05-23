@@ -215,7 +215,6 @@ appstore Pages
 appstore PDFGenius
 appstore PDFSplitter Pro
 appstore Pocket
-appstore PopBoardz
 appstore Pushbullet
 appstore Remote Desktop
 appstore Ring Menu
