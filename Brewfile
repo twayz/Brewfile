@@ -200,7 +200,6 @@ appstore Clearview
 appstore ColorQuest
 appstore Downcast
 appstore FilePane
-appstore Forecast Bar
 appstore GarageBand
 appstore iMovie
 appstore ipswDownloader
